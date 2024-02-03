@@ -1,7 +1,18 @@
 //
 // Global init of core components
 //
-
+function __(data) {
+    return fetch('/assets/lang/en.json')
+      .then((response) => response.json())
+      .then((langData) => {
+        if (langData && langData[data]) {
+          return langData[data];
+        }
+      })
+      .catch((error) => {
+        return data;
+      });
+  }
 // Init components
 var KTComponents = function () {
     // Public methods

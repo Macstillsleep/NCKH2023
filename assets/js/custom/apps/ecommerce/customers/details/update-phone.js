@@ -60,7 +60,7 @@ var KTUsersUpdateEmail = function () {
                         text: "Your form has not been cancelled!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }
@@ -94,7 +94,7 @@ var KTUsersUpdateEmail = function () {
                         text: "Your form has not been cancelled!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }
@@ -134,7 +134,7 @@ var KTUsersUpdateEmail = function () {
                                 text: "Form has been successfully submitted!",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: await __("Ok, got it!"),
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }

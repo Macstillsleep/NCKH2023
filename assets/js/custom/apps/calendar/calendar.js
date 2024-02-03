@@ -376,7 +376,7 @@ var KTAppCalendar = function () {
                                 text: "New event added to calendar!",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: await __("Ok, got it!"),
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }
@@ -427,10 +427,10 @@ var KTAppCalendar = function () {
                     } else {
                         // Show popup warning 
                         Swal.fire({
-                            text: "Sorry, looks like there are some errors detected, please try again.",
+                            text: await __("Sorry, looks like there are some errors detected, please try again."),
                             icon: "error",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn btn-primary"
                             }
@@ -495,7 +495,7 @@ var KTAppCalendar = function () {
                                 text: "New event added to calendar!",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: await __("Ok, got it!"),
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }
@@ -549,10 +549,10 @@ var KTAppCalendar = function () {
                     } else {
                         // Show popup warning 
                         Swal.fire({
-                            text: "Sorry, looks like there are some errors detected, please try again.",
+                            text: await __("Sorry, looks like there are some errors detected, please try again."),
                             icon: "error",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn btn-primary"
                             }
@@ -618,7 +618,7 @@ var KTAppCalendar = function () {
                         text: "Your event was not deleted!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }
@@ -664,7 +664,7 @@ var KTAppCalendar = function () {
                         text: "Your form has not been cancelled!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }
@@ -700,7 +700,7 @@ var KTAppCalendar = function () {
                         text: "Your form has not been cancelled!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }

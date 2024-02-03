@@ -17,10 +17,10 @@ var KTAuthNewPassword = function() {
                     'password': {
                         validators: {
                             notEmpty: {
-                                message: 'The password is required'
+                                message: await __('The password is required')
                             },
                             callback: {
-                                message: 'Please enter valid password',
+                                message: await __('Please enter valid password'),
                                 callback: function(input) {
                                     if (input.value.length > 0) {        
                                         return validatePassword();
@@ -32,20 +32,20 @@ var KTAuthNewPassword = function() {
                     'confirm-password': {
                         validators: {
                             notEmpty: {
-                                message: 'The password confirmation is required'
+                                message: await __('The password confirmation is required')
                             },
                             identical: {
                                 compare: function() {
                                     return form.querySelector('[name="password"]').value;
                                 },
-                                message: 'The password and its confirm are not the same'
+                                message: await __('The password and its confirm are not the same')
                             }
                         }
                     },
                     'toc': {
                         validators: {
                             notEmpty: {
-                                message: 'You must accept the terms and conditions'
+                                message:  __('You must accept the terms and conditions')
                             }
                         }
                     }
@@ -88,10 +88,10 @@ var KTAuthNewPassword = function() {
 
                         // Show message popup. For more info check the plugin's official documentation: https://sweetalert2.github.io/
                         Swal.fire({
-                            text: "You have successfully reset your password!",
+                            text: await __("You have successfully reset your password!"),
                             icon: "success",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn btn-primary"
                             }
@@ -112,10 +112,10 @@ var KTAuthNewPassword = function() {
                 } else {
                     // Show error popup. For more info check the plugin's official documentation: https://sweetalert2.github.io/
                     Swal.fire({
-                        text: "Sorry, looks like there are some errors detected, please try again.",
+                        text: await __("Sorry, looks like there are some errors detected, please try again."),
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary"
                         }

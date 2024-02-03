@@ -80,10 +80,10 @@ var KTAccountSettingsDeactivateAccount = function () {
 
                 } else {
                     swal.fire({
-                        text: "Sorry, looks like there are some errors detected, please try again.",
+                        text: await __("Sorry, looks like there are some errors detected, please try again."),
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-light-primary"
                         }

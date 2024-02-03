@@ -41,7 +41,7 @@ var KTSigninTwoFactor = function() {
                         text: "You have been successfully verified!",
                         icon: "success",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary"
                         }
@@ -63,7 +63,7 @@ var KTSigninTwoFactor = function() {
                     text: "Please enter valid securtiy code and try again.",
                     icon: "error",
                     buttonsStyling: false,
-                    confirmButtonText: "Ok, got it!",
+                    confirmButtonText: await __("Ok, got it!"),
                     customClass: {
                         confirmButton: "btn fw-bold btn-light-primary"
                     }

@@ -98,7 +98,7 @@ var KTModalAddAddress = function () {
 								text: "Form has been successfully submitted!",
 								icon: "success",
 								buttonsStyling: false,
-								confirmButtonText: "Ok, got it!",
+								confirmButtonText: await __("Ok, got it!"),
 								customClass: {
 									confirmButton: "btn btn-primary"
 								}
@@ -114,10 +114,10 @@ var KTModalAddAddress = function () {
 						}, 2000);   						
 					} else {
 						Swal.fire({
-							text: "Sorry, looks like there are some errors detected, please try again.",
+							text: await __("Sorry, looks like there are some errors detected, please try again."),
 							icon: "error",
 							buttonsStyling: false,
-							confirmButtonText: "Ok, got it!",
+							confirmButtonText: await __("Ok, got it!"),
 							customClass: {
 								confirmButton: "btn btn-primary"
 							}
@@ -150,7 +150,7 @@ var KTModalAddAddress = function () {
                         text: "Your form has not been cancelled!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }
@@ -182,7 +182,7 @@ var KTModalAddAddress = function () {
                         text: "Your form has not been cancelled!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }

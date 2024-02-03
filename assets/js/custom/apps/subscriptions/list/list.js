@@ -122,7 +122,7 @@ var KTSubscriptionsList = function () {
                             text: "You have deleted " + customerName + "!.",
                             icon: "success",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn fw-bold btn-primary",
                             }
@@ -138,7 +138,7 @@ var KTSubscriptionsList = function () {
                             text: customerName + " was not deleted.",
                             icon: "error",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn fw-bold btn-primary",
                             }
@@ -191,7 +191,7 @@ var KTSubscriptionsList = function () {
                         text: "You have deleted all selected customers!.",
                         icon: "success",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn fw-bold btn-primary",
                         }
@@ -215,7 +215,7 @@ var KTSubscriptionsList = function () {
                         text: "Selected customers was not deleted.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn fw-bold btn-primary",
                         }

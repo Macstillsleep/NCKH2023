@@ -38,7 +38,7 @@ var KTCustomerViewPaymentMethod = function () {
                             text: "Your card was not deleted!.",
                             icon: "error",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn btn-primary",
                             }
@@ -75,7 +75,7 @@ var KTCustomerViewPaymentMethod = function () {
                         text: "Your card was set to primary!.",
                         icon: "success",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }
@@ -85,7 +85,7 @@ var KTCustomerViewPaymentMethod = function () {
                         text: "Your card was not set to primary!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }

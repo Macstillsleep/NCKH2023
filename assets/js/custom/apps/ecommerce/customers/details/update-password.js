@@ -25,10 +25,10 @@ var KTUsersUpdatePassword = function () {
                     'new_password': {
                         validators: {
                             notEmpty: {
-                                message: 'The password is required'
+                                message: await __('The password is required')
                             },
                             callback: {
-                                message: 'Please enter valid password',
+                                message: await __('Please enter valid password'),
                                 callback: function (input) {
                                     if (input.value.length > 0) {
                                         return validatePassword();
@@ -40,13 +40,13 @@ var KTUsersUpdatePassword = function () {
                     'confirm_password': {
                         validators: {
                             notEmpty: {
-                                message: 'The password confirmation is required'
+                                message: await __('The password confirmation is required')
                             },
                             identical: {
                                 compare: function () {
                                     return form.querySelector('[name="new_password"]').value;
                                 },
-                                message: 'The password and its confirm are not the same'
+                                message: await __('The password and its confirm are not the same')
                             }
                         }
                     },
@@ -88,7 +88,7 @@ var KTUsersUpdatePassword = function () {
                         text: "Your form has not been cancelled!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }
@@ -122,7 +122,7 @@ var KTUsersUpdatePassword = function () {
                         text: "Your form has not been cancelled!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }
@@ -162,7 +162,7 @@ var KTUsersUpdatePassword = function () {
                                 text: "Form has been successfully submitted!",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: await __("Ok, got it!"),
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }

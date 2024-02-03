@@ -70,7 +70,7 @@ var KTUsersPermissionsList = function () {
                             text: "You have deleted " + permissionName + "!.",
                             icon: "success",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn fw-bold btn-primary",
                             }
@@ -83,7 +83,7 @@ var KTUsersPermissionsList = function () {
                             text: customerName + " was not deleted.",
                             icon: "error",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn fw-bold btn-primary",
                             }

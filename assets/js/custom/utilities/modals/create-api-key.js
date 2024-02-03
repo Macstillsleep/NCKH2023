@@ -92,7 +92,7 @@ var KTModalCreateApiKey = function () {
 								text: "Form has been successfully submitted!",
 								icon: "success",
 								buttonsStyling: false,
-								confirmButtonText: "Ok, got it!",
+								confirmButtonText: await __("Ok, got it!"),
 								customClass: {
 									confirmButton: "btn btn-primary"
 								}
@@ -107,10 +107,10 @@ var KTModalCreateApiKey = function () {
 					} else {
 						// Show error popuo. For more info check the plugin's official documentation: https://sweetalert2.github.io/
 						Swal.fire({
-							text: "Sorry, looks like there are some errors detected, please try again.",
+							text: await __("Sorry, looks like there are some errors detected, please try again."),
 							icon: "error",
 							buttonsStyling: false,
-							confirmButtonText: "Ok, got it!",
+							confirmButtonText: await __("Ok, got it!"),
 							customClass: {
 								confirmButton: "btn btn-primary"
 							}
@@ -145,7 +145,7 @@ var KTModalCreateApiKey = function () {
 						text: "Your form has not been cancelled!.",
 						icon: "error",
 						buttonsStyling: false,
-						confirmButtonText: "Ok, got it!",
+						confirmButtonText: await __("Ok, got it!"),
 						customClass: {
 							confirmButton: "btn btn-primary",
 						}

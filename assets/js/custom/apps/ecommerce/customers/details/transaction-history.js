@@ -64,7 +64,7 @@ var KTCustomerViewPaymentTable = function () {
                             text: "You have deleted " + invoiceNumber + "!.",
                             icon: "success",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn fw-bold btn-primary",
                             }
@@ -80,7 +80,7 @@ var KTCustomerViewPaymentTable = function () {
                             text: customerName + " was not deleted.",
                             icon: "error",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn fw-bold btn-primary",
                             }

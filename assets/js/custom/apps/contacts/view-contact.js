@@ -33,7 +33,7 @@ var KTAppContactView = function () {
                         text: "Contact has been deleted!",
                         icon: "success",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary"
                         }
@@ -48,7 +48,7 @@ var KTAppContactView = function () {
                         text: "Contact has not been deleted!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }

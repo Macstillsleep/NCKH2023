@@ -98,7 +98,7 @@ var KTAccountSettingsSigninMethods = function () {
                         text: "Sent password reset. Please check your email",
                         icon: "success",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn font-weight-bold btn-light-primary"
                         }
@@ -109,10 +109,10 @@ var KTAccountSettingsSigninMethods = function () {
                     });
                 } else {
                     swal.fire({
-                        text: "Sorry, looks like there are some errors detected, please try again.",
+                        text: await __("Sorry, looks like there are some errors detected, please try again."),
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn font-weight-bold btn-light-primary"
                         }
@@ -161,7 +161,7 @@ var KTAccountSettingsSigninMethods = function () {
                                 compare: function() {
                                     return passwordForm.querySelector('[name="newpassword"]').value;
                                 },
-                                message: 'The password and its confirm are not the same'
+                                message: await __('The password and its confirm are not the same')
                             }
                         }
                     },
@@ -186,7 +186,7 @@ var KTAccountSettingsSigninMethods = function () {
                         text: "Sent password reset. Please check your email",
                         icon: "success",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn font-weight-bold btn-light-primary"
                         }
@@ -197,10 +197,10 @@ var KTAccountSettingsSigninMethods = function () {
                     });
                 } else {
                     swal.fire({
-                        text: "Sorry, looks like there are some errors detected, please try again.",
+                        text: await __("Sorry, looks like there are some errors detected, please try again."),
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn font-weight-bold btn-light-primary"
                         }

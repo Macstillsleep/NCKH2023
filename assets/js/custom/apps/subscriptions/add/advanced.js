@@ -86,7 +86,7 @@ var KTSubscriptionsAdvanced = function () {
                         text: "You have deleted it!.",
                         icon: "success",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn fw-bold btn-primary",
                         }
@@ -99,7 +99,7 @@ var KTSubscriptionsAdvanced = function () {
                         text: "It was not deleted.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn fw-bold btn-primary",
                         }

@@ -27,7 +27,7 @@ var KTUsersViewMain = function () {
                         text: "You have signed out all sessions!.",
                         icon: "success",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }
@@ -37,7 +37,7 @@ var KTUsersViewMain = function () {
                         text: "Your sessions are still preserved!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }
@@ -75,7 +75,7 @@ var KTUsersViewMain = function () {
                             text: "You have signed out " + deviceName + "!.",
                             icon: "success",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn btn-primary",
                             }
@@ -87,7 +87,7 @@ var KTUsersViewMain = function () {
                             text: deviceName + "'s session is still preserved!.",
                             icon: "error",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn btn-primary",
                             }
@@ -124,7 +124,7 @@ var KTUsersViewMain = function () {
                         text: "You have removed this two-step authentication!.",
                         icon: "success",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }
@@ -134,7 +134,7 @@ var KTUsersViewMain = function () {
                         text: "Your two-step authentication is still valid!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }
@@ -174,7 +174,7 @@ var KTUsersViewMain = function () {
                     text: "Form has been successfully submitted!",
                     icon: "success",
                     buttonsStyling: false,
-                    confirmButtonText: "Ok, got it!",
+                    confirmButtonText: await __("Ok, got it!"),
                     customClass: {
                         confirmButton: "btn btn-primary"
                     }
@@ -206,7 +206,7 @@ var KTUsersViewMain = function () {
                         text: "Your form has not been cancelled!.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: await __("Ok, got it!"),
                         customClass: {
                             confirmButton: "btn btn-primary",
                         }

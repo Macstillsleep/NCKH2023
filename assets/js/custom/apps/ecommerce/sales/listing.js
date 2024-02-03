@@ -131,7 +131,7 @@ var KTAppEcommerceSalesListing = function () {
                             text: "You have deleted " + orderID + "!.",
                             icon: "success",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn fw-bold btn-primary",
                             }
@@ -144,7 +144,7 @@ var KTAppEcommerceSalesListing = function () {
                             text: orderID + " was not deleted.",
                             icon: "error",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: await __("Ok, got it!"),
                             customClass: {
                                 confirmButton: "btn fw-bold btn-primary",
                             }
