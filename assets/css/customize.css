@@ -1,0 +1,17 @@
+.acc h1, .acc button {
+    background-color: #50CD89;
+}
+
+.list-unstyled.nav-tabs li {
+    transition: margin-left 0.3s; /* Tạo hiệu ứng chuyển động */
+}
+
+.list-unstyled.nav-tabs li.active {
+    margin-left: 25px; /* Khi mục được chọn, lùi vào 5px */
+   
+}
+
+
+
+    
+    
